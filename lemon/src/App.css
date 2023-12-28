@@ -5,3 +5,13 @@ html ,body {
   margin: 0px;
   padding: 0px;
 }
+footer {
+  transform: translateY(400px);  
+}
+.cardArticle {
+  transition: all 1s;
+}
+.cardArticle:hover {
+  background-color: lightblue !important;
+  box-shadow: inset;
+}
